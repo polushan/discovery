@@ -8,5 +8,6 @@ eureka:
     fetchRegistry: false
   server:
     waitTimeInMsWhenSyncEmpty: 0
+    enableSelfPreservation: false
   serviceUrl:
     defaultZone: http://localhost:8761
