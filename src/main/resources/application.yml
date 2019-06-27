@@ -7,6 +7,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
   server:
+    enableSelfPreservation: true
     waitTimeInMsWhenSyncEmpty: 0
   serviceUrl:
     defaultZone: http://localhost:8761
